@@ -1,1 +1,77 @@
-bin/.Xresources
+URxvt.depth: 32
+URxvt.transparent: true
+URxvt.shading: 10
+URxvt.scrollbar: false
+
+
+! URxvt Plugins
+URxvt.perl-ext-common: default,matcher
+URxvt.urlLauncher: /usr/bin/chromium
+URxvt.matcher.button: 1
+
+! --- ~/.Xresources ------------------------------------------------------------
+! ------------------------------------------------------------------------------
+! --- generated with 4bit Terminal Color Scheme Designer -----------------------
+! ------------------------------------------------------------------------------
+! --- http://ciembor.github.com/4bit -------------------------------------------
+! ------------------------------------------------------------------------------
+
+! --- special colors ---
+
+*background: #0d1926
+*foreground: #d9e6f2
+
+! --- standard colors ---
+
+! black
+*color0: #000000
+
+! bright_black
+*color8: #808080
+
+! red
+*color1: #e90075
+
+! bright_red
+*color9: #ffffff
+
+! green
+*color2: #75e900
+
+! bright_green
+*color10: #ffffff
+
+! yellow
+*color3: #e97500
+
+! bright_yellow
+*color11: #ffffff
+
+! blue
+*color4: #0075e9
+
+! bright_blue
+*color12: #ffffff
+
+! magenta
+*color5: #7500e9
+
+! bright_magenta
+*color13: #ffffff
+
+! cyan
+*color6: #00e975
+
+! bright_cyan
+*color14: #ffffff
+
+! white
+*color7: #808080
+
+! bright_white
+*color15: #ffffff
+
+
+! ------------------------------------------------------------------------------
+! --- end of terminal colors section -------------------------------------------
+! ------------------------------------------------------------------------------

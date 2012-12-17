@@ -1,1 +1,1 @@
-bin/.Xdefaults
+xrdb ~/.Xresources
