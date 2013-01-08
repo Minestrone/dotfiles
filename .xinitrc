@@ -1,3 +1,3 @@
-exec i3
 [[ -f ~/.Xresources ]] && xrdb ~/.Xresources
 gsynaptics-init
+exec i3

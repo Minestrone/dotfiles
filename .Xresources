@@ -1,8 +1,9 @@
 URxvt.depth: 32
 URxvt.transparent: true
-URxvt.shading: 10
-URxvt.scrollbar: false
-
+URxvt.shading: 60
+URxvt.scrollBar: false
+!URxvt.font: -*-terminus-medium-*-*-*-*-140-*-*-*-*-iso8859-1
+URxvt.font: xft:Monospace:pixelsize=12 
 
 ! URxvt Plugins
 URxvt.perl-ext-common: default,matcher
@@ -18,58 +19,58 @@ URxvt.matcher.button: 1
 
 ! --- special colors ---
 
-*background: #0d1926
+*background: #2f2f2f
 *foreground: #d9e6f2
 
 ! --- standard colors ---
 
 ! black
-*color0: #000000
+*color0: #2f2f2f
 
 ! bright_black
-*color8: #808080
+*color8: #636363
 
 ! red
-*color1: #e90075
+*color1: #872420
 
 ! bright_red
-*color9: #ffffff
+*color9: #874b43
 
 ! green
-*color2: #75e900
+*color2: #654b1b
 
 ! bright_green
-*color10: #ffffff
+*color10: #874b43
 
 ! yellow
-*color3: #e97500
+*color3: #87461b
 
 ! bright_yellow
-*color11: #ffffff
+*color11: #874b43
 
 ! blue
-*color4: #0075e9
+*color4: #602843
 
 ! bright_blue
-*color12: #ffffff
+*color12: #5e8d87
 
 ! magenta
-*color5: #7500e9
+*color5: #a54242
 
 ! bright_magenta
-*color13: #ffffff
+*color13: #874b43
 
 ! cyan
-*color6: #00e975
+*color6: #604b3e
 
 ! bright_cyan
-*color14: #ffffff
+*color14: #874b43
 
 ! white
-*color7: #808080
+*color7: #959595
 
 ! bright_white
-*color15: #ffffff
+*color15: #c6c6c6
 
 
 ! ------------------------------------------------------------------------------

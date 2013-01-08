@@ -4,38 +4,35 @@
 
 ##############################
 #
-# Random Environment Settings
+#Random Environment Settings
 #
 ##############################
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # Import Xresources
 xrdb ~/.Xresources
 
-# Set Background with Feh
-command feh --bg-fill ~/Downloads/1920x1080/birdman.jpg
-
-# Todo2 outout
-command todo2
-
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-PATH=$PATH=/usr/bin/ 
-PATH=$PATH=/home/onashi/.gem/ruby/1.9.1/bin/
+PATH=$PATH:=/usr/bin/ 
+PATH=$PATH:=/home/onashi/.gem/ruby/1.9.1/bin/
 
 export PS1='\[\033[01;32m\]\u@\h \[\033[00;31m\]\W \$ \[\033[00m\]'
 export TERM=rxvt-unicode
 export LANG=en_US.UTF-8
-
 
 # Misc Aliases
 alias suspend='sudo pm-suspend'
 alias surf='tabbed surf -e'
 alias sourced='source ~/.bashrc'
 alias luakit='command luakit &'
-# quick directory changes
-alias working='cd ~/working/code'
+alias bg='feh --bg-max'
+alias subl="/home/onashi/Downloads/SublimeText2/sublime_text"
 
+# Misc SSH Aliases
+alias jagrafess='jagrafess@208.68.36.39'
 
 # Pacman alias
 alias pacupg='sudo pacman -Syu'        # Synchronize with repositories before upgrading packages that are out of date on the local system.
@@ -57,7 +54,7 @@ alias pacmir='sudo pacman -Syy'                # Force refresh of all package li
 alias less='less -NR'
 
 # ls aliases
-alias ls='ls -hF --color=auto'
+alias ls='ls -lh --color=auto'
 alias lr='ls -R'			# Recursive ls
 alias la='ls -lah'
 alias ll='la | less'
