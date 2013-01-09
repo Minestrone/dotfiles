@@ -11,16 +11,18 @@
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # Import Xresources
-xrdb ~/.Xresources
+# xrdb ~/.Xresources
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-PATH=$PATH:=/usr/bin/ 
-PATH=$PATH:=/home/onashi/.gem/ruby/1.9.1/bin/
+# PATH=$PATH:=/usr/bin/ 
+# PATH=$PATH:=/home/onashi/.gem/ruby/1.9.1/bin/
 
-export PS1='\[\033[01;32m\]\u@\h \[\033[00;31m\]\W \$ \[\033[00m\]'
-export TERM=rxvt-unicode
+PATH=$PATH:/usr/local/bin/
+
+# export PS1='\[\033[01;32m\]\u@\h \[\033[00;31m\]\W \$ \[\033[00m\]'
+# export TERM=rxvt-unicode
 export LANG=en_US.UTF-8
 
 # Misc Aliases
@@ -54,7 +56,7 @@ alias pacmir='sudo pacman -Syy'                # Force refresh of all package li
 alias less='less -NR'
 
 # ls aliases
-alias ls='ls -lh --color=auto'
+alias ls='ls -lh'
 alias lr='ls -R'			# Recursive ls
 alias la='ls -lah'
 alias ll='la | less'
