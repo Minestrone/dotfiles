@@ -18,9 +18,6 @@ prompt suse
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-# Import Xresources
-xrdb ~/.Xresources
-
 export TERM=rxvt-unicode
 export LANG=en_US.UTF-8
 

@@ -25,4 +25,4 @@ set expandtab
 let g:solarized_termcolors=256
 syntax on
 set background=dark 
-colorscheme solarized
+"colorscheme solarized
