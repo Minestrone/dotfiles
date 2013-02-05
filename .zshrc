@@ -21,16 +21,11 @@ prompt suse
 export TERM=rxvt-unicode
 export LANG=en_US.UTF-8
 
-# Misc Aliases
-alias suspend='sudo pm-suspend'
-alias surf='tabbed surf -e'
-alias sourced='source ~/.bashrc'
-alias luakit='command luakit &'
-alias bg='feh --bg-max'
-alias subl="/home/onashi/Downloads/SublimeText2/sublime_text"
+# MISC Aliases
+alias upwifi='sudo wifi-menu wlp0s26f7u1'
 
 # Misc SSH Aliases
-alias prometheus='root@208.68.36.103'
+alias jagrafess='mosh jagrafess@208.68.39.36'
 
 # Pacman alias
 alias pacupg='sudo pacman -Syu'        # Synchronize with repositories before upgrading packages that are out of date on the local system.
