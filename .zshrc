@@ -51,3 +51,11 @@ alias ls='ls -lh --color'
 alias lr='ls -R --color'
 alias la='ls -lah --color'
 alias ll='la | less --color'
+
+# git aliases
+alias gpull='git pull'
+alias gpush='git push'
+alias gbranch='git branch -v'
+alias gstat='git status'
+alias gadd='git add'
+alias commit='git commit -m'
