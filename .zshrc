@@ -19,13 +19,19 @@ prompt suse
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 export TERM=rxvt-unicode
-export LANG=en_US.UTF-8
+# export LANG=en_US.UTF-8
 
 # MISC Aliases
+  # laptop wireless
 alias upwifi='sudo wifi-menu wlp0s26f7u1'
 
-# Misc SSH Aliases
-alias jagrafess='mosh jagrafess@208.68.39.36'
+alias less='less -NR'
+
+alias lr='ls -R --color'
+alias ls='ls -lah --color'
+alias ll='la | less --color'
+
+alias jagrafess='ssh jagrafess@208.68.39.36'
 
 # Pacman alias
 alias pacupg='sudo pacman -Syu'        # Synchronize with repositories before upgrading packages that are out of date on the local system.
@@ -43,19 +49,11 @@ alias pacupd='sudo pacman -Sy && sudo abs'     # Update and refresh the local pa
 alias pacinsd='sudo pacman -S --asdeps'        # Install given package(s) as dependencies of another package
 alias pacmir='sudo pacman -Syy'                # Force refresh of all package lists after updating /etc/pacman.d/mirrorlist
 
-# less aliases
-alias less='less -NR'
-
-# ls aliases
-alias ls='ls -lh --color'
-alias lr='ls -R --color'
-alias la='ls -lah --color'
-alias ll='la | less --color'
-
 # git aliases
 alias gpull='git pull'
 alias gpush='git push'
 alias gbranch='git branch -v'
 alias gstat='git status'
+alias gdiff='git diff'
 alias gadd='git add'
 alias commit='git commit -m'
