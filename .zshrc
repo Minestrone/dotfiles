@@ -1,4 +1,4 @@
-#
+
 # ~/.zshrc
 #
 
@@ -53,7 +53,10 @@ alias pacmir='sudo pacman -Syy'                # Force refresh of all package li
 alias gpull='git pull'
 alias gpush='git push'
 alias gbranch='git branch -v'
+alias gremote='git remote -v'
 alias gstat='git status'
 alias gdiff='git diff'
 alias gadd='git add'
 alias commit='git commit -m'
+# rails/rake aliases
+alias dbnuke='rake db:drop; rake db:create; rake db:migrate; rake db:test:prepare'
