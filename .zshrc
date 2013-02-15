@@ -10,6 +10,7 @@ promptinit
 
 prompt suse 
 
+[ -n "$TMUX" ] && export TERM=screen-256color
 ##############################
 #
 #Random Environment Settings
@@ -18,7 +19,6 @@ prompt suse
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-export TERM=rxvt-unicode
 # export LANG=en_US.UTF-8
 
 # MISC Aliases
