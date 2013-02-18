@@ -1,14 +1,14 @@
+ZSH=$HOME/.oh-my-zsh
+ZSH_THEME="robbyrussell"
+plugins=(git)
+source $ZSH/oh-my-zsh.sh
+export PATH=/Users/anthonyvallerga/.rvm/gems/ruby-1.9.3-p194@studentstock/bin:/Users/anthonyvallerga/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/anthonyvallerga/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/anthonyvallerga/.rvm/bin:/usr/bin/local:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/opt/PalmPDK/bin:/opt/PalmSDK/0.1/bin/
 
-# ~/.zshrc
-#
+#PROMPT="%#|%n@%m: %B% %~ %b"
+#autoload -U promptinit
+#promptinit
 
-# zsh environment settings
-
-PROMPT="%#|%n@%m: %B% %~ %b"
-autoload -U promptinit
-promptinit
-
-prompt suse 
+#prompt suse 
 
 ##############################
 #
@@ -16,7 +16,7 @@ prompt suse
 #
 ##############################
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+#[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 export TERM=rxvt-unicode
 # export LANG=en_US.UTF-8
@@ -26,10 +26,6 @@ export TERM=rxvt-unicode
 alias upwifi='sudo wifi-menu wlp0s26f7u1'
 
 alias less='less -NR'
-
-alias lr='ls -R --color'
-alias ls='ls -lah --color'
-alias ll='la | less --color'
 
 alias jagrafess='ssh jagrafess@208.68.39.36'
 
