@@ -1,5 +1,6 @@
 "GLOBAL Settings
 
+set t_Co=256
 set autoindent
 set showcmd
 
@@ -22,7 +23,9 @@ set softtabstop=4
 set expandtab
 
 "SOLARIZED Settings
-let g:solarized_termcolors=256
 syntax on
-set background=dark 
-"colorscheme solarized
+set background=dark
+let g:solarized_termcolors=256
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
+colorscheme solarized

@@ -10,6 +10,7 @@ export PATH=/Users/anthonyvallerga/.rvm/gems/ruby-1.9.3-p194@studentstock/bin:/U
 
 #prompt suse 
 
+[ -n "$TMUX" ] && export TERM=screen-256color
 ##############################
 #
 #Random Environment Settings
@@ -18,7 +19,6 @@ export PATH=/Users/anthonyvallerga/.rvm/gems/ruby-1.9.3-p194@studentstock/bin:/U
 
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-export TERM=rxvt-unicode
 # export LANG=en_US.UTF-8
 
 # MISC Aliases
