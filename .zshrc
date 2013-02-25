@@ -1,8 +1,7 @@
 ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="robbyrussell"
+ZSH_THEME="nanotech"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
-export PATH=/Users/anthonyvallerga/.rvm/gems/ruby-1.9.3-p194@studentstock/bin:/Users/anthonyvallerga/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/anthonyvallerga/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/anthonyvallerga/.rvm/bin:/usr/bin/local:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/opt/PalmPDK/bin:/opt/PalmSDK/0.1/bin/
 
 #PROMPT="%#|%n@%m: %B% %~ %b"
 #autoload -U promptinit

@@ -1,11 +1,18 @@
-"GLOBAL Settings
-
+" General
+" ---------------------------
+set nocompatible            " turn off vi-compatible mode
+set modeline
+set history=50          " lines of history to remember
 set t_Co=256
-set autoindent
-set showcmd
+filetype plugin indent on
 
+" UI
+" ...........................
+set ruler
 set number
 set nowrap
+set showcmd
+set cmdheight=2
 
 map q h
 map w j
@@ -14,9 +21,12 @@ map r l
 
 call pathogen#infect('bundle')
 syntax on
-filetype plugin indent on
 
-"TAB settings
+" TAB settings
+" ...........................
+set autoindent
+set smartindent
+set softtabstop=2
 set tabstop=2
 set shiftwidth=2
 set softtabstop=4
@@ -25,7 +35,4 @@ set expandtab
 "SOLARIZED Settings
 syntax on
 set background=dark
-let g:solarized_termcolors=256
-let g:solarized_visibility = "high"
-let g:solarized_contrast = "high"
 colorscheme solarized
