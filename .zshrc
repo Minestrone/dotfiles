@@ -1,7 +1,8 @@
 ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="nanotech"
+ZSH_THEME="robbyrussell"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
+export PATH=/Users/anthonyvallerga/.rvm/gems/ruby-1.9.3-p194@studentstock/bin:/Users/anthonyvallerga/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/anthonyvallerga/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/anthonyvallerga/.rvm/bin:/usr/bin/local:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/opt/PalmPDK/bin:/opt/PalmSDK/0.1/bin/
 
 #PROMPT="%#|%n@%m: %B% %~ %b"
 #autoload -U promptinit
@@ -52,6 +53,7 @@ alias gremote='git remote -v'
 alias gstat='git status'
 alias gdiff='git diff'
 alias gadd='git add'
-alias commit='git commit'
+alias commit='git commit -m'
+
 # rails/rake aliases
 alias dbnuke='bundle exec rake db:drop;bundle exec rake db:create;bundle exec rake db:migrate;bundle exec rake db:test:prepare'
