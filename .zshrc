@@ -27,8 +27,16 @@ export PATH=/Users/anthonyvallerga/.rvm/gems/ruby-1.9.3-p194@studentstock/bin:/U
 
 alias wd="pwd"
 alias less='less -NR'
-alias satllite5='ssh syrup@208.68.39.36'
+# alias satllite5='ssh syrup@208.68.39.36'
 alias ssmaster="git clone git@github.com:studentstock/studentstock.git"
+ 
+# Simulate OSX's pbcopy/pbpaste
+if [ ! $(uname -s) = "Darwin" ]; then
+  alias pbcopy='xsel --clipboard --input'
+  alias pbpaste='xsel --clipboard --output'
+fi
+
+
 # Pacman alias
 alias pacupg='sudo pacman -Syu'        # Synchronize with repositories before upgrading packages that are out of date on the local system.
 alias pacin='sudo pacman -S'           # Install specific package(s) from the repositories
