@@ -23,12 +23,12 @@ export PATH=/Users/anthonyvallerga/.rvm/gems/ruby-1.9.3-p194@studentstock/bin:/U
 
 # MISC Aliases
   # laptop wireless
-alias upwifi='sudo wifi-menu wlp0s26f7u1'
+  alias upwifi='sudo wifi-menu wlp0s26f7u1'
 
+alias wd="pwd"
 alias less='less -NR'
-
-alias jagrafess='ssh jagrafess@208.68.39.36'
-
+alias satllite5='ssh syrup@208.68.39.36'
+alias ssmaster="git clone git@github.com:studentstock/studentstock.git"
 # Pacman alias
 alias pacupg='sudo pacman -Syu'        # Synchronize with repositories before upgrading packages that are out of date on the local system.
 alias pacin='sudo pacman -S'           # Install specific package(s) from the repositories
@@ -53,6 +53,6 @@ alias gremote='git remote -v'
 alias gstat='git status'
 alias gdiff='git diff'
 alias gadd='git add'
-alias commit='git commit -m'
+alias commit='git commit'
 # rails/rake aliases
-alias dbnuke='rake db:drop; rake db:create; rake db:migrate; rake db:test:prepare'
+alias dbnuke='bundle exec rake db:drop;bundle exec rake db:create;bundle exec rake db:migrate;bundle exec rake db:test:prepare'
