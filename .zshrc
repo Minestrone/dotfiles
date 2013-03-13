@@ -36,6 +36,8 @@ if [ ! $(uname -s) = "Darwin" ]; then
   alias pbpaste='xsel --clipboard --output'
 fi
 
+#tmux shit
+switch() { tmux switch -t $1 }
 
 # Pacman alias
 alias pacupg='sudo pacman -Syu'        # Synchronize with repositories before upgrading packages that are out of date on the local system.
