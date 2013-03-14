@@ -32,7 +32,4 @@ set shiftwidth=2
 set softtabstop=4
 set expandtab
 
-"SOLARIZED Settings
-syntax on
-set background=light
-colorscheme solarized
+colorscheme Mustang
