@@ -34,5 +34,5 @@ set expandtab
 
 "SOLARIZED Settings
 syntax on
-set background=dark
+set background=light
 colorscheme solarized
