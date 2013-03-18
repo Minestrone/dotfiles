@@ -16,13 +16,13 @@ fi
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # MISC Aliases
-  # laptop wireless
-  alias upwifi='sudo wifi-menu wlp0s26f7u1'
+
+alias upwifi='sudo wifi-menu wlp0s26f7u1' # For Archlinux System
 
 alias wd="pwd"
 alias less='less -NR'
 alias ssmaster="git clone git@github.com:studentstock/studentstock.git"
- 
+
 
 #tmux shit
 tn() { tmux new -s $1 }
@@ -30,3 +30,5 @@ ts() { tmux switch -t $1 }
 
 # rails/rake aliases
 alias dbnuke='bundle exec rake db:drop;bundle exec rake db:create;bundle exec rake db:migrate;bundle exec rake db:test:prepare'
+alias rserver="rails s -p3001"
+
