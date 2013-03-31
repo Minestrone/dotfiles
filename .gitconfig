@@ -1,0 +1,9 @@
+[user]
+	name = Anthony Vallerga
+	email = anthony.vallerga@gmail.com
+[color]
+	ui = true
+[core]
+	autocrlf = input
+	safecrlf = true
+	editor = vim
