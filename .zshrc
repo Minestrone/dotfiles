@@ -44,6 +44,10 @@ alias wd="pwd"
 alias less='less -NR'
 alias ssmaster="git clone git@github.com:studentstock/studentstock.git"
 
+alias mv='mv -g '
+alias cp='cp -g '
+alias rm='rm -rf '
+
 # Git Aliases
 #
 alias gs='git status '

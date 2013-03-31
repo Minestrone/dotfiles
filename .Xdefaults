@@ -1,43 +1,76 @@
 !XTerm*termName: xterm-256color
-URxvt.background: rgb:0000/0000/0200/c800
-URxvt.foreground: rgb:c2/c2/c2
+URxvt.background: #000000
+URxvt.foreground: #b09292
+URxvt.transparent: true
+URxvt.shading: 10
+URxvt.scrollBar: false
+URxvt.font: xft:Monospace:pixelsize=12
 
-!###### Color list ###################
-!## B2FBA4 C3ECE9 Green            ###
-!## FBA4A8 a3c5e7 5d7caf Blue      ###
-!## ff6ffa 5F8BFF 490a47 1f0042    ###
-!#####################################
 
-! Black
-*color0:   #333333
-*color8:   #3D3D3D
+! --- ~/.Xresources ------------------------------------------------------------
+! ------------------------------------------------------------------------------
+! --- generated with 4bit Terminal Color Scheme Designer -----------------------
+! ------------------------------------------------------------------------------
+! --- http://ciembor.github.com/4bit -------------------------------------------
+! ------------------------------------------------------------------------------
 
-! Red
-*color1:   #8C4665
-*color9:   #BF4D80
+! --- special colors ---
 
-! Green
-*color2:   #287373
-*color10:  #53A6A6
+*background: #0d1926
+*foreground: #95ff3e
 
-! Yellow
-*color3:   #7C7C99
-*color11:  #9E9ECB
+! --- standard colors ---
 
-! Blue
-*color4:   #395573
-*color12:  #477AB3
+! black
+*color0: #000000
 
-! Magneta
-*color5:   #5E468C
-*color13:  #7E62B3
+! bright_black
+*color8: #323232
 
-! Cyan
-*color6:   #31658C
-*color14:  #6096BF
+! red
+*color1: #983165
 
-! White
-*color7:   #899CA1
-*color15:  #C0C0C0
+! bright_red
+*color9: #e1a3c2
 
+! green
+*color2: #659831
+
+! bright_green
+*color10: #c2e1a3
+
+! yellow
+*color3: #986531
+
+! bright_yellow
+*color11: #e1c2a3
+
+! blue
+*color4: #316598
+
+! bright_blue
+*color12: #a3c2e1
+
+! magenta
+*color5: #653198
+
+! bright_magenta
+*color13: #c2a3e1
+
+! cyan
+*color6: #319865
+
+! bright_cyan
+*color14: #a3e1c2
+
+! white
+*color7: #858585
+
+! bright_white
+*color15: #ffffff
+
+
+! ------------------------------------------------------------------------------
+! --- end of terminal colors section -------------------------------------------
+! ------------------------------------------------------------------------------
 ! vim: et sw=2 syn=xdefaults
