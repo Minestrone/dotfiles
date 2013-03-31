@@ -26,16 +26,6 @@ bindkey -v
 tn() { tmux new -s $1 }
 ts() { tmux switch -t $1 }
 
-# Simulate OSX's pbcopy/pbpaste
-#
-#if [ ! $(uname -s) = "Darwin" ]; then
-#  export PATH=$HOME/.rvm/gems/ruby-1.9.3-p194@studentstock/bin:$HOME/.rvm/gems/ruby-1.9.3-p194@global/bin:$HOME/.rvm/rubies/ruby-1.9.3-p194/bin:$HOME/.rvm/bin:/usr/bin/local:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/opt/PalmPDK/bin:/opt/PalmSDK/0.1/bin/
-#
-#  alias pbcopy='xsel --clipboard --input'
-#  alias pbpaste='xsel --clipboard --output'
-#fi
-
-
 # MISC Aliases
 #
 alias upwifi='sudo wifi-menu wlp0s26f7u1' # For Archlinux System
@@ -48,6 +38,7 @@ alias mv='mv -g '
 alias cp='cp -g '
 alias rm='rm -rf '
 
+alias setwall="~/.dotfiles/bin/fehbg"
 # Git Aliases
 #
 alias gs='git status '
