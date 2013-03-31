@@ -1,3 +1,3 @@
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+source ~/.zshrc
 
-xflux -z 905928
+xflux -z 95928
