@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd ~/.dotfiles/.wallpapers
+
+feh --bg-scale wallpaper-999336.jpg 
