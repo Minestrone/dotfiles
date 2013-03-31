@@ -38,7 +38,8 @@ alias mv='mv -g '
 alias cp='cp -g '
 alias rm='rm -rf '
 
-alias setwall="~/.dotfiles/bin/fehbg"
+alias colors="~/.dotfiles/bin/colors.sh"
+setwall() { feh --bg-scale $1 }
 # Git Aliases
 #
 alias gs='git status '
