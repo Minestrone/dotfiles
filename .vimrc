@@ -32,4 +32,4 @@ set shiftwidth=2
 set softtabstop=4
 set expandtab
 
-colorscheme Mustang
+syntax enable
