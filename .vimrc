@@ -14,10 +14,12 @@ set nowrap
 set showcmd
 set cmdheight=2
 
-map q h
-map w j
-map e k
-map r l
+" Funky-Nav
+" ...........................
+map a h
+map s j
+map d k
+map f l
 
 call pathogen#infect('bundle')
 syntax on

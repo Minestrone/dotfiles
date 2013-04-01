@@ -1,4 +1,5 @@
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+export PATH=$PATH:/var/lib/gems/1.9.1:/home/syrup/.gem/ruby/1.9.1
 
 # ZSH Global Configs
 #
@@ -39,6 +40,7 @@ alias cp='cp -g '
 alias rm='rm -rf '
 
 alias colors="~/.dotfiles/bin/colors.sh"
+alias wall="feh ~/.dotfiles/.wallpapers"
 setwall() { feh --bg-scale $1 }
 # Git Aliases
 #
