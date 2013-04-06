@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/onashi/working/code/ruby/blog/content'
 let g:netrw_dirhist_2='/home/onashi/working/code/ruby/blog/_posts'
 let g:netrw_dirhist_3='/Users/anthonyvallerga/.dotfiles/.vim'
@@ -7,3 +7,4 @@ let g:netrw_dirhist_4='/home/syrup/.dotfiles'
 let g:netrw_dirhist_5='/home/jagrafess/working/studentstock/social/app/views/layouts'
 let g:netrw_dirhist_6='/home/jagrafess/working/studentstock/social/app/views/users'
 let g:netrw_dirhist_7='/home/jagrafess/working/studentstock/social/app/views/devise/sessions'
+let g:netrw_dirhist_8='/home/syrup/projects/simple.rb'

@@ -19,7 +19,7 @@ font -*-terminus-bold-r-normal-*-14-*-*-*-c-*-iso10646-1
 floating_modifier $alt
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $alt+Return exec i3-sensible-terminal
 
 # kill focused window
 bindsym $mod+$alt+Q kill
