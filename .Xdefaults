@@ -6,71 +6,36 @@ URxvt.shading: 30
 URxvt.scrollBar: false
 URxvt.font: xft:Monospace:pixelsize=12
 
+! Black
+*color0:   #303030
+*color8:   #5F5F5F
 
-! --- ~/.Xresources ------------------------------------------------------------
-! ------------------------------------------------------------------------------
-! --- generated with 4bit Terminal Color Scheme Designer -----------------------
-! ------------------------------------------------------------------------------
-! --- http://ciembor.github.com/4bit -------------------------------------------
-! ------------------------------------------------------------------------------
+! Red
+*color1:   #c03000
+*color9:   #FF3A78
 
-! --- special colors ---
+! Green
+*color2:   #b1d631
+*color10:  #A6CD07
 
-*background: #0d1926
-*foreground: #95ff3e
+! Yellow
+*color3:   #fecf35
+*color11:  #B5C865
 
-! --- standard colors ---
+! Blue
+*color4:   #426870
+*color12:  #4A7781
 
-! black
-*color0: #000000
+! Magenta
+*color5:   #6D506D
+*color13:  #FF3B77
 
-! bright_black
-*color8: #323232
+! Cyan
+*color6:   #4bb5c1
+*color14:  #4bb5c1
 
-! red
-*color1: #983165
+! White
+*color7:   #e2e2e5
+*color15:  #e2e2e5
 
-! bright_red
-*color9: #e1a3c2
-
-! green
-*color2: #659831
-
-! bright_green
-*color10: #c2e1a3
-
-! yellow
-*color3: #986531
-
-! bright_yellow
-*color11: #e1c2a3
-
-! blue
-*color4: #316598
-
-! bright_blue
-*color12: #a3c2e1
-
-! magenta
-*color5: #653198
-
-! bright_magenta
-*color13: #c2a3e1
-
-! cyan
-*color6: #319865
-
-! bright_cyan
-*color14: #a3e1c2
-
-! white
-*color7: #858585
-
-! bright_white
-*color15: #ffffff
-
-
-! ------------------------------------------------------------------------------
-! --- end of terminal colors section -------------------------------------------
-! ------------------------------------------------------------------------------
 ! vim: et sw=2 syn=xdefaults

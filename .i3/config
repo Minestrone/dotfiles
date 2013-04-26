@@ -117,10 +117,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym a resize shrink width 10 px or 10 ppt
-        bindsym s resize grow height 10 px or 10 ppt
-        bindsym d resize shrink height 10 px or 10 ppt
-        bindsym f resize grow width 10 px or 10 ppt
+        bindsym f resize shrink width 10 px or 10 ppt
+        bindsym d resize grow height 10 px or 10 ppt
+        bindsym s resize shrink height 10 px or 10 ppt
+        bindsym a resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym 113 resize shrink width 10 px or 10 ppt
@@ -147,7 +147,7 @@ assign [class="^Skype$"] 6: chat
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-client.focused             #1793D0   #1793D0    #FFFFFF
+client.focused             #474747   #393939    #FFFFFF
 client.focused_inactive    #000000   #333333    #FFFFFF
 client.unfocused           #000000   #333333    #FFFFFF
 client.urgent              #FF0000   #FF0000    #FF0000
@@ -160,7 +160,7 @@ bar {
         
         colors {
           statusline #7A887E
-          background #232621
+          background #0B090E
           focused_workspace #EOD1A3 #7A887E #C4C4C4
           inactive_workspace #333333 #222222 #888888
         }

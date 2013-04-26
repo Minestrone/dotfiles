@@ -16,10 +16,10 @@ set cmdheight=2
 
 " Funky-Nav
 " ...........................
-map a h
-map s j
-map d k
-map f l
+map q h
+map w j
+map e k
+map r l
 
 call pathogen#infect('bundle')
 syntax on
