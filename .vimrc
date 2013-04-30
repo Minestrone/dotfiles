@@ -6,6 +6,10 @@ set history=50          " lines of history to remember
 set t_Co=256
 filetype plugin indent on
 
+call pathogen#infect('bundle')
+syntax on
+syntax enable
+
 " UI
 " ...........................
 set ruler
@@ -21,9 +25,6 @@ map w j
 map e k
 map r l
 
-call pathogen#infect('bundle')
-syntax on
-
 " TAB settings
 " ...........................
 set autoindent
@@ -34,4 +35,3 @@ set shiftwidth=2
 set softtabstop=4
 set expandtab
 
-syntax enable
