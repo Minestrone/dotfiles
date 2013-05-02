@@ -18,6 +18,7 @@ set nowrap
 set showcmd
 set cmdheight=2
 
+colors flatcolor_vim
 " Funky-Nav
 " ...........................
 map q h
@@ -34,4 +35,3 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=4
 set expandtab
-
