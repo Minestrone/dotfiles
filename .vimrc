@@ -19,12 +19,6 @@ set showcmd
 set cmdheight=2
 
 colors flatcolor_vim
-" Funky-Nav
-" ...........................
-map q h
-map w j
-map e k
-map r l
 
 " TAB settings
 " ...........................
